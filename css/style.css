@@ -1,0 +1,35 @@
+
+
+/* ===|| Common CSS Start ||=== */
+body{
+    font-family: 'Roboto', sans-serif;
+}
+h1{
+    font-family: 'Lato', sans-serif;
+    font-size: 40px;
+    font-weight: 8000;
+    color:#E52B50;
+}
+h2{
+    margin-top: 15px;
+    font-size: 25px;
+    color:#9966CC;
+}
+
+/* ===|| Common CSS End ||=== */
+.single-assignment{
+    margin-top: 30px;
+    padding: 30px;
+   /* border: 2px solid #1E1E1E;*/
+   /* border-radius: 10px;*/
+}
+.single-assignment:last-child{
+    margin-bottom: 30px;
+}
+.right-input{
+    background-color: #1E1E1E;
+    color:#1034A6;
+}
+.right-input img{
+    width: 100%;
+}

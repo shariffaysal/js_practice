@@ -1,0 +1,270 @@
+/* Extra Small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+        /* Common CSS Start */
+        h2 {
+            font-size: 25px !important;
+        }
+
+        p{
+            font-size: 15px;
+            line-height: 25px !important;
+        }
+        /* Common CSS End */
+
+        /* Header Start */
+        header nav a img {
+            width: 60% !important;
+        }
+        .navbar-toggler {
+            margin-top: 18px !important;
+            padding: 0.1rem 0.3rem !important;
+            font-size: 18px !important;
+        }
+        .navbar-nav {
+            text-align: right !important;
+        }
+        .dropdown-menu {
+            min-width: 12em !important;
+        }
+        .dropdown-menu[data-bs-popper] {
+            top: 100% !important;
+            margin-top: 12px !important;
+        }
+        header nav ul li a{
+            font-size: 15px !important;
+        }
+        /* Header End */
+    /* Slider Start*/
+    .car-single{
+        margin: 60px 0 !important;
+        text-align: center;
+    }
+    .car-single h1 {
+        font-size: 30px !important;
+    }
+    .car-single p {
+        margin: 5px 0 30px !important;
+        font-size: 15px !important;
+        line-height: 20px !important;
+    }
+    .car-single a {
+        width: 160px !important;
+        height: 40px !important;
+        padding: 10px 0 !important;
+    }
+    .pipe-icon {
+        left: 48% !important;
+        bottom: -2.1% !important;
+    }
+    .car-prev {
+        left: 38% !important;
+    }
+    .car-next {
+        right: 38% !important;
+    }
+    /* Slider End */
+
+
+    /* Service Start */
+    /* Service Start */
+    span.single-pipe {
+        font-size: 35px !important;
+    }   
+    .service p{
+        margin-top: 10px !important;
+    } 
+    .all-service{
+        padding: 60px 0 !important;
+    }
+    .single-service {
+        margin-bottom: 50px;
+    }
+    .single-service h3 {
+        margin: 35px 0 30px !important;
+    }
+    .single-service h3::after {
+        width: 15% !important;
+        top: 43% !important;
+        left: 43% !important;
+    }
+    .single-service h6 {
+        margin: 30px 0 !important;
+    }
+    /* Service End */
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    /* Common CSS Start */
+    h2 {
+        font-size: 25px !important;
+    }
+    p{
+        line-height: 25px !important;
+    }
+    /* Common CSS End */
+
+    /* Header Start */
+    header nav a img {
+        width: 70% !important;
+    }
+    .navbar-toggler {
+        margin-top: 18px !important;
+        padding: 0.1rem 0.3rem !important;
+        font-size: 18px !important;
+    }
+    .navbar-nav {
+        text-align: right !important;
+    }
+    /* Header End */
+        
+    /* Slider */
+    .car-single{
+        margin: 60px 0 !important;
+        text-align: center;
+    }
+    .car-single h1 {
+        font-size: 40px !important;
+    }
+    .car-single p {
+        margin: 5px 0 30px !important;
+    }
+    .car-single a {
+        width: 160px !important;
+        height: 40px !important;
+        padding: 10px 0 !important;
+    }
+    .car-next {
+        right: 85% !important;
+    }
+    .pipe-icon {
+        left: 48.5% !important;
+        bottom: -2.1% !important;
+    }
+    .car-prev {
+        left: 41% !important;
+    }
+    .car-next {
+        right: 41% !important;
+    }
+    
+    /* Service Start */
+    span.single-pipe {
+        font-size: 40px !important;
+    }   
+    .service p{
+        margin-top: 15px !important;
+    } 
+    .all-service{
+        padding: 60px 0 !important;
+    }
+    .single-service {
+        margin-bottom: 50px;
+    }
+    .single-service h3 {
+        margin: 45px 0 35px !important;
+    }
+    .single-service h3::after {
+        top: 40% !important;
+    }
+    .mb-none{
+        margin-bottom: 0 !important;
+    }
+    /* Service End */
+    
+ }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    /* Header Start */
+    header nav a img {
+        width: 80% !important;
+    }
+    .navbar-toggler {
+        margin-top: 18px !important;
+        padding: 0.1rem 0.3rem !important;
+        font-size: 18px !important;
+    }
+    .navbar-nav {
+        text-align: right !important;
+    }
+    /* Header End */
+
+    /* Slider */
+    .car-single{
+        margin: 60px 0 !important;
+    }
+    .car-single h1 {
+        font-size: 45px !important;
+    }
+    .car-single p {
+        margin: 5px 0 30px !important;
+    }
+    .car-single a {
+        width: 160px !important;
+        height: 40px !important;
+        padding: 10px 0 !important;
+    }
+    .car-next {
+        right: 85% !important;
+    }
+    .pipe-icon {
+        left: 6.5% !important;
+        bottom: -2.1% !important;
+    }
+    /* Service CSS Start */
+    .all-service{
+        padding: 60px 0 !important;
+    }
+    .single-service {
+        margin-bottom: 50px;
+    }
+    .single-service h3 {
+        margin: 45px 0 35px !important;
+    }
+    .single-service h3::after {
+        top: 40% !important;
+    }
+    .mb-none{
+        margin-bottom: 0 !important;
+    }
+    /* Service CSS End */
+ }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    /* Slider */
+    .car-single{
+        margin: 80px 0 !important;
+    }
+    .car-single h1 {
+        font-size: 50px !important;
+    }
+    .car-single a {
+        width: 180px !important;
+    }
+    .pipe-icon {
+        left: 4.1% !important;
+        bottom: -2.1% !important;
+    }
+    /* Service CSS Start */
+    .single-service h3::after {
+        top: 38% !important;
+    }
+    /* Service CSS End */
+ }
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) { 
+    /* Slider */
+    .car-single{
+        margin: 150px 0 !important;
+    }
+    .car-single h1 {
+        font-size: 55px !important;
+    }
+
+ }
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { ... }
